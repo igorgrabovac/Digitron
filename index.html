@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digitron</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapp">
+        <form class="container" name="calc">
+            <input name="display">
+            <div class="clr"></div>
+            <input class="b" type="button" value="7" onclick="calc.display.value+='7'">
+            <input class="b" type="button" value="8" onclick="calc.display.value+='8'">
+            <input class="b" type="button" value="9" onclick="calc.display.value+='9'">
+            <input class="b" type="button" id="deljeno" value="&#247;" onclick="calc.display.value+='/'">
+            <input class="b" type="button" value="4" onclick="calc.display.value+='4'">
+            <input class="b" type="button" value="5" onclick="calc.display.value+='5'">
+            <input class="b" type="button" value="6" onclick="calc.display.value+='6'">
+            <input class="b" type="button" id="puta" value="x" onclick="calc.display.value+='*'">
+            <input class="b" type="button" value="1" onclick="calc.display.value+='1'">
+            <input class="b" type="button" value="2" onclick="calc.display.value+='2'">
+            <input class="b" type="button" value="3" onclick="calc.display.value+='3'">
+            <input class="b" type="button" id="minus" value="-" onclick="calc.display.value+='-'">
+            <input class="b" type="button" value="0" onclick="calc.display.value+='0'">
+            <input class="b" type="button" id="tacka" value="." onclick="calc.display.value+='.'">
+            <input class="b" type="button" id="jednako" value="=" onclick="calc.display.value=eval(calc.display.value)">
+            <input class="b" type="button" id="plus" value="+" onclick="eval(calc.display.value+='+')">
+            <input class="b" type="button" id="c" value="C" onclick="calc.display.value=''">
+            <p>&#174; Igor</p>
+
+
+        </form>
+
+
+    </div>  
+</body>
+</html>
