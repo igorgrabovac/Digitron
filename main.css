@@ -1,22 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Exo 2', sans-serif;
 }
-#wrapp{
+
+#wrapp {
     width: 80%;
     margin: 0 auto;
-    
 }
-.container{
+
+.container {
     background: rgb(112, 105, 105);
     width: 600px;
     height: 850px;
     border-radius: 60px;
     margin: 40px auto;
-    
 }
-input{
+
+input {
     width: 400px;
     height: 60px;
     margin-top: 40px;
@@ -24,12 +25,13 @@ input{
     margin-left: 100px;
     border-radius: 10px;
     font-size: 60px;
-    
 }
-.clr{
+
+.clr {
     clear: both;
 }
-.b{
+
+.b {
     background: rgb(14, 13, 13);
     color: white;
     width: 110px;
@@ -38,20 +40,25 @@ input{
     margin-left: 30px;
     margin-top: 20px;
     border-radius: 10px;
-    
 }
-#deljeno, #puta, #minus,#plus {
-    background-color: rgb(74, 74, 197);
 
+#deljeno,
+#puta,
+#minus,
+#plus {
+    background-color: rgb(74, 74, 197);
 }
-#jednako{
+
+#jednako {
     background: rgb(231, 92, 92);
 }
-#c{
+
+#c {
     float: left;
     background: red;
 }
-p{
+
+p {
     text-align: center;
     margin-top: 80px;
     margin-left: 350px;

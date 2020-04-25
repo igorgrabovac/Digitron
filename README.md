@@ -1,2 +1,2 @@
 # Digitron
-Digitron uradjen pomocu HTML-a i CSS-a.
+Digitron uradjen pomocu HTML-a, CSS-a i JS-a.
